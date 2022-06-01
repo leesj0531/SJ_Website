@@ -84,7 +84,7 @@
     <span></span>
     Neon button
     </a>
-  <!--
+  <!--  // Two button
   <input type="button" value="Light" onclick="
   document.querySelector('body').style.backgroundColor='white';
   document.querySelector('body').style.color='black';
@@ -94,6 +94,7 @@
   document.querySelector('body').style.color='white';
   ">
   -->
+  <!--  // One button - if condition
   <input id="light_dark" type="button" value="Dark" onclick="
   if (document.querySelector('#light_dark').value === 'Light'){
     document.querySelector('body').style.backgroundColor='white';
@@ -106,6 +107,7 @@
     document.querySelector('#light_dark').value = 'Light';
   }
   ">
+  -->
   <input type="button" value="Dark__Refactoring" onclick="      // onclick 속성!!으로 Function을 썼음. 참고.
     LightDarkHandler(this);
   ">
